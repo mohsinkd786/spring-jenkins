@@ -15,6 +15,6 @@ public class Application {
 	
 	@RequestMapping("/")
 	public String status(){
-		return "Spring Jenkins is UP & Running";
+		return "Welcome to Spring Boot Jenkins";
 	}
 }
