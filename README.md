@@ -24,3 +24,22 @@ STEPS:
 
 11. To expose this APi via web : https://ngrok.com/download
 
+12. spawn a container from image
+		docker run -p portThatuWantToExpose:PortMentionedinDockerFile ${imageID}
+
+13. Stop the container 
+		docker stop ${containerId}
+
+14. Start the container
+		docker start ${containerId}
+
+15. Run container in the background
+		docker run -p 9122:8080 -d ${imageID}
+		
+16. Remove/Delete container
+        docker rm ${containerId}
+        
+17. Remove/Delete Image
+        docker rmi ${imageId}
+        
+  
