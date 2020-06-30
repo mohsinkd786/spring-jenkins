@@ -42,4 +42,14 @@
 17. #### Remove/Delete Image
         docker rmi ${imageId}
         
+18. ### Login to Docker Hub
+        docker login
+        
+19. ### Push Image to Docker Hub
+        docker push dockerUsername/dockerImageName:tagName
+        
+
+
+
+        
   
